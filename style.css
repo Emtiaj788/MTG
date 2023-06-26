@@ -1,0 +1,291 @@
+/*======================
+Common Css Starts 
+========================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  resize: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* line-height: 1.5em; */
+}
+
+body {
+  color: #000;
+  font-family: Georgia;
+  font-size: 15px;
+  /* line-height: 1.5em; */
+}
+.containerC {
+  margin: 0 auto;
+  max-width: 1150px;
+  width: 96%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+li {
+  display: inline-block;
+  list-style: none;
+}
+ul li {
+  padding: 10px;
+}
+ul li a {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus,
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+i.fa-facebook-f:hover {
+  color: #139df8;
+}
+i.fa-twitter:hover {
+  color: #0c86ef;
+}
+i.fa-pinterest-p:hover {
+  color: #ca3839;
+}
+i.fa-linkedin-in:hover {
+  color: #1173b2;
+}
+i.fa-instagram:hover {
+  color: #e52a3e;
+}
+input,
+button,
+textarea {
+  padding: 15px;
+  background: #fafafa;
+  resize: none;
+}
+input[type="submit"],
+button[type="submit"] {
+  width: auto;
+  padding: 15px 40px;
+  background: #4da9ff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.boxed_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #2676c7;
+  border-radius: 5px;
+}
+.border_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  border:1px solid red;
+  border-radius: 5px;
+}
+.video-play-btn {
+  width: 60px;
+  height: 60px;
+  background: #06d6a0;
+  display: inline-block;
+  line-height: 66px;
+  color: #fff;
+  padding-left: 6px;
+  border-radius: 50%;
+}
+.pill-btn {
+  display: inline-block;
+  padding: 10px 40px;
+  color: red;
+  border: 1px solid;
+  border-radius: 50px;
+}
+/* input[type='text'],
+input[type='password'],
+textarea {
+  border: none;
+  padding: 5px;
+} */
+
+/* .owl-nav button i {
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  display: inline-block;
+  font-size: 60px;
+  line-height: 70px;
+  margin-top: -45px;
+  color: red;
+}
+
+ .owl-nav button.owl-next i {
+  left: auto;
+  right: -70px;
+} */
+
+/* .alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+} */
+/* .floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.fix {
+  overflow: hidden;
+}
+.text_center {
+  text-align: center;
+}
+.text_left {
+  text-align: left;
+}
+.text_right {
+  text-align: right;
+}
+
+.rowc {
+  width: 100%;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+} */
+
+/*=======================
+Common Css Ends 
+=========================*/
+
+/*=========================
+  .header_area Starts
+  ===========================*/
+  
+.upper_menu {
+  text-align: center;
+}
+.upperMenuItem {
+  display: inline-block;
+  margin-right: 20px;
+}
+.boxed_btn .fa-mobile {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.header_top {
+  margin-top: 7px;
+} 
+.fa-message.upperMenuItem {
+  position: relative;
+  font-size: 27px;
+}
+.fa-message.upperMenuItem span {
+  position: absolute;
+  color: #fff;
+  top: -9px;
+  left: 8px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: red;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 10px;
+  line-height: 19px;
+}
+
+/*=========================
+  .header_area Ends
+  ===========================*/
+
+/*=========================
+  .service_area Starts
+  ===========================*/
+
+/*=========================
+  .service_area Ends
+  ===========================*/
+
+/*=========================
+   .blog_area Starts
+  ===========================*/
+/*=========================
+   .blog_area Ends
+  ===========================*/
+
+/*=========================
+  .footer_area Starts
+  ===========================*/
+/*=========================
+  .footer_area Ends
+  ===========================*/
